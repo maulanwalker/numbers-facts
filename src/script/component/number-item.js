@@ -15,7 +15,7 @@ class NumberItem extends HTMLElement {
         :host{display:block;border-radius:7px;box-shadow:0 5px 10px 0 rgba(0,0,0,.3)}.number-fact{padding:20px}.number-fact>p{margin-top:12px}
         </style>
         <div class="number-fact">
-        <p> <b> ${this._number.number} </b> is ${this._number.text} </p>
+        <p> <b> ${this._number} </b> </p>
         </div>`;
     }
 }

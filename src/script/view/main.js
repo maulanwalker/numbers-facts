@@ -9,6 +9,7 @@ const main = () => {
     const onButtonSearchClicked = async () => {
         try{
             const result = await DataSource.searchNumber(searchElement.value);
+            console.log(result);
             renderResult(result);
         } catch (message) {
             fallbackResult(message);
